@@ -1,0 +1,38 @@
+/* ======================css reset ======================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ====================css variables=================== */
+
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+    --primary-font-family: ;
+    --secondary-font-family: ;
+}
+
+/* ====================css utilities classes======================= */
+
+a {
+    text-transform: none;
+    color: var(--primary-color);
+    font-family: var(--primary-font-family);
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
