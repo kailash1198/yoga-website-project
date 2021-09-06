@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,35 +10,389 @@
 
     <!-- -*****google fonts******- -->
 
-    <!-- --******font awesome********-- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
-
+    <!-- ******font awesome start****** -->
+    <script src="https://kit.fontawesome.com/a20698c67c.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+
+
+
+
+
     <!-- ====================header section start here============================ -->
     <header id="header">
         <div class="container">
             <nav class="header-nav">
                 <div class="logo">
-                    <h1>YOGA</h1>
+                    <a href="index.html">
+                        <h1>YOGA</h1>
+                    </a>
                 </div>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
+                    <li><a class="active" href="#header">HOME</a></li>
+                    <li><a href="#about-us">ABOUT</a></li>
+                    <li><a href="#feature">PORTFOLIO</a></li>
+                    <li><a href="#pricing">PRICING</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
                 </ul>
                 <div class="call-to-action">
-                    <a href="#">Contact Now</a>
+                    <a href="#contact">Contact Now</a>
                 </div>
             </nav>
-            <div class="header-content flex-center">
+            <div class="header-content flex-center main-container">
                 <div class="header-main-content">
-                    
+                    <h1>Welcome</h1>
+                    <p>We want to provide an authentic experience that incorporates original traditional yoga practices
+                        in our classes. Our community consists of teachers and students dedicated to offering an
+                        elevated experience!</p>
+                    <div class="primary-btn">
+                        <a href="#">Book now</a>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
+
+
+
+
+
+
+    <!-- =================about us section start =============== -->
+
+    <section id="about-us">
+        <div class="main-container flex-center">
+            <div class="box">
+                <img src="./images/about-section.jpg" alt="">
+            </div>
+            <div class="box">
+                <h1>About Us</h1>
+                <p>Our mission is to provide a retreat for everyone to step away from their busy lives and practice yoga
+                    within a peaceful and quiet space, while offering a variety of styles to meet the needs of everyone.
+                </p>
+                <div class="primary-btn">
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- ==================classess section start here=================== -->
+
+    <section id="classes">
+        <div class="main-container flex-center">
+            <div class="box">
+                <h1>Classess</h1>
+                <p>Our certified teachers aim to provide students with access to a variety of techniques such as
+                    Vinyasa, Iyengar, Restorative meditation and many more. A variety of these techniques may be used in
+                    any given class or may be elaborated on in special-focus classes.</p>
+                <p>We offer different levels of physical intensity, and different levels of experiance.</p>
+                <div class="primary-btn">
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/class-section.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- ==============feature section start here=================== -->
+    <section id="feature">
+        <div class="main-container">
+            <div class="box flex-center">
+                <div class="sub-box">
+                    <img src="./images/cate1.jpg" alt="">
+                    <h3 class="pink-color-text text-align">Strenghth</h3>
+                    <p class="text-align">All Skills Level Welcome</p>
+                </div>
+                <div class="sub-box">
+                    <img src="./images/cate2.jpg" alt="">
+                    <h3 class="pink-color-text text-align">Strenghth</h3>
+                    <p class="text-align">All Skills Level Welcome</p>
+                </div>
+                <div class="sub-box">
+                    <img src="./images/cate3.jpg" alt="">
+                    <h3 class="pink-color-text text-align">Strenghth</h3>
+                    <p class="text-align">All Skills Level Welcome</p>
+                </div>
+            </div>
+            <div class="box flex-center">
+                <div class="sub-box">
+                    <img src="./images/cate4.jpg" alt="">
+                    <h3 class="pink-color-text text-align">Strenghth</h3>
+                    <p class="text-align">All Skills Level Welcome</p>
+                </div>
+                <div class="sub-box">
+                    <img src="./images/cate5.jpg" alt="">
+                    <h3 class="pink-color-text text-align">Strenghth</h3>
+                    <p class="text-align">All Skills Level Welcome</p>
+                </div>
+                <div class="sub-box">
+                    <img src="./images/cate6.jpg" alt="">
+                    <h3 class="pink-color-text text-align">Strenghth</h3>
+                    <p class="text-align">All Skills Level Welcome</p>
+                </div>
+            </div>
+            <div class="primary-btn margin-auto">
+                <a href="#">More Classess</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- ==================pricing section start here ======================= -->
+
+    <section id="pricing">
+        <div class="main-container">
+            <h1 class="text-align pricing-heading">Pricing</h1>
+            <div class="flex-center">
+                <div class="box box1">
+                    <h1>Memberships</h1>
+                    <p>Unlimited access for as low as $150 a month. 3 month minimum commitment. (Save over 30% on
+                        unlimited
+                        yoga classes.)</p>
+                    <p>$150 Monthly</p>
+                    <div class="secondary-btn margin-top">
+                        <a href="#">Take class</a>
+                    </div>
+                </div>
+                <div class="box box2">
+                    <h1>Drop-in</h1>
+                    <p>Book in advance or just drop in. Any class. Ant time.</p>
+                    <p>$25 Drop-in classes</p>
+                    <p>$25 Drop-in classes</p>
+                    <div class="secondary-btn margin-top">
+                        <a href="#">Take class</a>
+                    </div>
+                </div>
+                <div class="box box3">
+                    <h1>ADDONS</h1>
+                    <p>Unlimited access to mat and towel services every class.</p>
+                    <p>$20 Additional</p>
+                    <p>$20 Additional</p>
+                    <div class="secondary-btn margin-top">
+                        <a href="#">Take class</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- =============instructor================= -->
+
+    <section id="instructor">
+        <div class="container">
+            <div class="main-container">
+                <h1 class="text-align">Instructors</h1>
+                <div class="container">
+                    <div class="box flex-center">
+                        <div class="sub-box">
+                            <img src="./images/header-bg.jpg" alt="">
+                            <h3 class="text-align pink-color-text">Juhi amak</h3>
+                            <p class="text-align">Vinayasa Yoga Instructor</p>
+                        </div>
+                        <div class="sub-box">
+                            <img src="./images/all-team-img.jpg" alt="">
+                            <h3 class="text-align pink-color-text">Julia karya</h3>
+                            <p class="text-align">Vinayasa Yoga Instructor</p>
+                        </div>
+                        <div class="sub-box">
+                            <img src="./images/cate6.jpg" alt="">
+                            <h3 class="text-align pink-color-text">Maria</h3>
+                            <p class="text-align">Vinayasa Yoga Instructor</p>
+                        </div>
+                    </div>
+                    <div class="box flex-center">
+                        <div class="sub-box">
+                            <img src="./images/cate2.jpg" alt="">
+                            <h3 class="text-align pink-color-text">Julliana ron</h3>
+                            <p class="text-align">Vinayasa Yoga Instructor</p>
+                        </div>
+                        <div class="sub-box">
+                            <img src="./images/cate5.jpg" alt="">
+                            <h3 class="text-align pink-color-text">Kashyap singh</h3>
+                            <p class="text-align">Vinayasa Yoga Instructor</p>
+                        </div>
+                        <div class="sub-box">
+                            <img src="./images/cate3.jpg" alt="">
+                            <h3 class="text-align pink-color-text">Jhonson </h3>
+                            <p class="text-align">Vinayasa Yoga Instructor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- ==================video section================== -->
+
+    <section id="video">
+        <div class="container">
+            <div class="main-container">
+                <div class="flex-center">
+                    <div class="box">
+                        <h1>Transform your body, soul, and life today</h1>
+                    </div>
+                    <div class="box">
+                        <img src="./images/img-video.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============video section end here ========== -->
+
+
+
+
+
+    <!-- =============location start here=========== -->
+    <section id="location">
+        <div class="container">
+            <div class="main-container">
+                <div class="flex-center">
+                    <div class="box box1">
+                        <img src="./images/yoga-loc1.jpg" alt="">
+                    </div>
+                    <div class="box box2">
+                        <h2 class="pink-color-text">Bloor</h2>
+                        <p>7234 34732 324327</p>
+                        <p>77,hddwq, dqwsdqwgf</p>
+                    </div>
+                    <div class="box box3">
+                        <img src="./images/yoga-loc2.jpg" alt="">
+                    </div>
+                    <div class="box box4">
+                        <h2 class="pink-color-text">Queeen</h2>
+                        <p>78943 324</p>
+                        <p>521 ddcb bang karnatakla</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- ==============contact section================= -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="main-container flex-center">
+                <div class="box box1">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15568.681459344141!2d77.44602471948367!3d12.702301089157386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae44ba6a02aa97%3A0x924316a51e40fcfe!2z4KSs4KSm4KWH4KS44KSs4KSw4KS-4KSm4KWL4KSm4KWN4KSm4KWALCDgpJXgpLDgpY3gpKjgpL7gpJ_gpJUgNTYyMTEy!5e0!3m2!1shi!2sin!4v1630924967434!5m2!1shi!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="box box2">
+                    <h1 class="text-align">Contact us</h1>
+                    <p class="text-align">Have any questions about our classes, instructors, or memberships? Drop in or
+                        send us a message!</p>
+                    <div class="form-container flex-center margin-top">
+                        <form action="">
+                            <div class="name-grp">
+                                <label for="Name">Name</label>
+                                <input type="text">
+                            </div>
+                            <div class="name-grp">
+                                <label for="Name">Name</label>
+                                <input type="text">
+                            </div>
+                            <div class="name-grp">
+                                <label for="Name">Name</label>
+                                <input type="text">
+                            </div>
+                            <div class="name-grp">
+                                <label for="Name">Name</label>
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- ==================footer================== -->
+
+    <footer>
+        <div class="container flex-center">
+            <div class="main-container flex-top">
+                <div class="box box1">
+                    <h3>Yoga</h3>
+                    <p>If you are looking for a balanced fitness regime in your life as well as a friendly environment
+                        and highly skilled instructors, then we are here to help.
+                        Powered by WordPress • Themify WordPress Themes</p>
+                </div>
+                <div class="box">
+                    <h3>NAVIGATION</h3>
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Classess</p>
+                    <p>Pricing</p>
+                    <p>Teacher</p>
+                    <p>Location</p>
+                    <p>Contact</p>
+                </div>
+                <div class="box">
+                    <h3>OPENING HOURS</h3>
+                    <p>Monday 07:00-17:00</p>
+                    <p>Tuesday 07:00-17:00</p>
+                    <p>Wednesday 07:00-17:00</p>
+                    <p>Thusrsday 07:00-17:00</p>
+                    <p>Friday 07:00-17:00</p>
+                    <p>Saturday 07:00-17:00</p>
+                    <p>Sunday closed</p>
+                </div>
+                <div class="box margin-top">
+                    <div class="flex-center margin-top">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
